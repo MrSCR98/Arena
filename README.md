@@ -315,9 +315,3 @@ Hay unos pocos ajustes que **no tienen botón** en el panel. Se cambian editando
 - El panel solo se actualiza cada segundo **mientras está abierto**
 - Al descargar el plugin o reiniciar el servidor, la arena se detiene y se **eliminan todos los NPC y minihelicópteros**, sin dejar restos
 - Si tenías datos del plugin antiguo `RandomNPCArena`, los conjuntos de ropa se importan solos
-
----
-
-## 👤 Autor
-
-Hecho por **SCR98**.
