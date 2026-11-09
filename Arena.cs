@@ -2987,7 +2987,8 @@ namespace Oxide.Plugins
                 {
                     Image = { Color = ColFondo },
                     RectTransform = { AnchorMin = "0 0", AnchorMax = "1 1" },
-                    CursorEnabled = true
+                    CursorEnabled = true,
+                    KeyboardEnabled = true // bloquea movimiento, salto y atajos mientras el panel esta abierto
                 }, "Overlay", UiFondo);
                 abiertos.Add(jugador.userID);
             }
