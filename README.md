@@ -24,6 +24,26 @@ Escribes `/arena`, pulsas **INICIAR ARENA** y los NPC aparecen a tu alrededor.
 
 ⚠️ **Rendimiento:** cuantos más NPC pongas, **más bajan los FPS**. Cada NPC es un jugador completo (con modelo, ropa y arma) y los minihelicópteros pesan todavía más. Con cifras altas notarás la bajada en tu juego y en el de los demás jugadores. Empieza con pocos y ve subiendo hasta encontrar un número con el que vayas fluido.
 
+⚠️ **Mejorar FPS del juego:** Para mejorar el rendimiento, se recomienda limitar los FPS del servidor para que no tenga tanto impacto si lo estás ejecutando en un servidor local.
+
+Coloca esto en la consola del servidor:
+
+```cmd
+fps.limit 60
+```
+
+Por defecto está en:
+
+```cmd
+fps.limit 256
+```
+
+Para deslimitar es:
+
+```cmd
+fps.limit 0
+```
+
 ---
 
 ## 📦 Requisitos
